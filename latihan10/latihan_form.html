@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .label {
+            text-align: right;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <table align="center" style="border: 2px solid; width: 350px;" cellpadding="5" cellspacing="0">
+            <tr>
+                <td class="label">
+                    Nama :
+                </td>
+                <td>
+                    <input type="text" name="username">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">
+                    Password :
+                </td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="pria" name="jenis kelamin">
+
+                    <label for="pria">Wanita</label>
+                    <input type="radio" id="wanita" name="jenis kelamin">
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <label for="menyanyi">menyanyi</label>
+                    <input type="checkbox" id="menyanyi">
+
+                    <label for="olahraga">olahraga</label>
+                    <input type="checkbox" id="olahraga">
+
+                    <label for="ngoding">ngoding</label>
+                    <input type="checkbox" id="ngoding">
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td class="label">
+                    Kota :
+                </td>
+                <td>
+                    <select>
+                        <option>- Pilih -</option>
+                        <option>Bandung</option>
+                        <option>Yogykarta</option>
+                        <option>Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">
+                    Alamat :
+                </td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Kirim!</button>
+                </td>
+            </tr>
+        </table>
+        
+
+    </form>
+</body>
+</html>
